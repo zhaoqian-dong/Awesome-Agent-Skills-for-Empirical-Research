@@ -845,7 +845,7 @@
         "name": "aer-consistency",
         "path": "skills/50-brycewang-aer-skills/skills/aer-consistency/SKILL.md"
       },
-      "skill_count": 14,
+      "skill_count": 15,
       "source_confidence": "high",
       "source_url": "https://github.com/brycewang-stanford/AER-skills",
       "sync": "weekly GitHub Actions sync"
@@ -15969,7 +15969,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 225,
+      "line_count": 240,
       "name": "aer-consistency",
       "path": "skills/50-brycewang-aer-skills/skills/aer-consistency/SKILL.md"
     },
@@ -15983,7 +15983,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 207,
+      "line_count": 246,
       "name": "aer-identification",
       "path": "skills/50-brycewang-aer-skills/skills/aer-identification/SKILL.md"
     },
@@ -15997,7 +15997,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 163,
+      "line_count": 168,
       "name": "aer-introduction",
       "path": "skills/50-brycewang-aer-skills/skills/aer-introduction/SKILL.md"
     },
@@ -16011,7 +16011,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 219,
+      "line_count": 224,
       "name": "aer-literature",
       "path": "skills/50-brycewang-aer-skills/skills/aer-literature/SKILL.md"
     },
@@ -16025,9 +16025,23 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 260,
+      "line_count": 265,
       "name": "aer-paper-body",
       "path": "skills/50-brycewang-aer-skills/skills/aer-paper-body/SKILL.md"
+    },
+    {
+      "collection": "50-brycewang-aer-skills",
+      "description": "Use when the project collects primary data or runs a field, lab, or survey experiment, before the intervention begins — write the pre-analysis plan, size the sample from a power calculation, and register with the AEA RCT Registry. Apply after the design is chosen in aer-identification and before any outcome data are seen.",
+      "frontmatter_fields": [
+        "description",
+        "name"
+      ],
+      "has_description": true,
+      "has_frontmatter": true,
+      "has_name": true,
+      "line_count": 154,
+      "name": "aer-preregistration",
+      "path": "skills/50-brycewang-aer-skills/skills/aer-preregistration/SKILL.md"
     },
     {
       "collection": "50-brycewang-aer-skills",
@@ -16039,7 +16053,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 276,
+      "line_count": 289,
       "name": "aer-rebuttal",
       "path": "skills/50-brycewang-aer-skills/skills/aer-rebuttal/SKILL.md"
     },
@@ -16053,7 +16067,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 240,
+      "line_count": 245,
       "name": "aer-referee-sim",
       "path": "skills/50-brycewang-aer-skills/skills/aer-referee-sim/SKILL.md"
     },
@@ -16067,7 +16081,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 255,
+      "line_count": 260,
       "name": "aer-replication",
       "path": "skills/50-brycewang-aer-skills/skills/aer-replication/SKILL.md"
     },
@@ -16081,13 +16095,13 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 150,
+      "line_count": 178,
       "name": "aer-robustness",
       "path": "skills/50-brycewang-aer-skills/skills/aer-robustness/SKILL.md"
     },
     {
       "collection": "50-brycewang-aer-skills",
-      "description": "Use when implementing or running the empirical analysis for an AER-track manuscript with StatsPAI — the agent-native unified Python engine and MCP server for causal inference and econometrics — as an alternative to hand-written Stata / R / Python template code. Covers DiD, IV, RDD, synthetic control, robustness, sensitivity, and publication-ready table export.",
+      "description": "Use when aer-identification has fixed the design, after methodology choice and before aer-robustness or aer-tables-figures, to run an AER-track analysis with StatsPAI — the agent-native Python engine and MCP server for causal inference, robustness, sensitivity, and publication-ready table export.",
       "frontmatter_fields": [
         "description",
         "name"
@@ -16095,7 +16109,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 213,
+      "line_count": 232,
       "name": "aer-statspai",
       "path": "skills/50-brycewang-aer-skills/skills/aer-statspai/SKILL.md"
     },
@@ -16109,13 +16123,13 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 203,
+      "line_count": 208,
       "name": "aer-submission",
       "path": "skills/50-brycewang-aer-skills/skills/aer-submission/SKILL.md"
     },
     {
       "collection": "50-brycewang-aer-skills",
-      "description": "Use when constructing or revising regression tables, descriptive statistics tables, or figures for an AER, AER:Insights, or AEJ manuscript. Implements AER booktabs house style, the standard regression-table layout, and the figure-notes convention.",
+      "description": "Use when constructing or revising regression tables, descriptive statistics tables, or figures after results are estimated and before submission for an AER, AER:Insights, or AEJ manuscript. Implements AER booktabs house style, regression-table layout, and figure-note conventions.",
       "frontmatter_fields": [
         "description",
         "name"
@@ -16123,7 +16137,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 181,
+      "line_count": 186,
       "name": "aer-tables-figures",
       "path": "skills/50-brycewang-aer-skills/skills/aer-tables-figures/SKILL.md"
     },
@@ -16137,13 +16151,13 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 135,
+      "line_count": 140,
       "name": "aer-topic-selection",
       "path": "skills/50-brycewang-aer-skills/skills/aer-topic-selection/SKILL.md"
     },
     {
       "collection": "50-brycewang-aer-skills",
-      "description": "Use when deciding which AER-skills sub-skill to use next, or when sequencing manuscript work from topic selection through rebuttal for the American Economic Review, AER:Insights, or AEJ journals. Routes — does not replace — the specialized skills.",
+      "description": "Use when deciding which AER-skills sub-skill to use next, before choosing a specialized skill or after a user asks how to sequence manuscript work from topic selection through rebuttal for AER, AER:Insights, or AEJ journals. Routes — does not replace — the specialized skills.",
       "frontmatter_fields": [
         "description",
         "name"
@@ -16151,7 +16165,7 @@
       "has_description": true,
       "has_frontmatter": true,
       "has_name": true,
-      "line_count": 142,
+      "line_count": 150,
       "name": "aer-workflow",
       "path": "skills/50-brycewang-aer-skills/skills/aer-workflow/SKILL.md"
     },
@@ -18639,7 +18653,7 @@
     "missing_frontmatter": 4,
     "missing_name": 4,
     "oversized_skill_files_over_500_lines": 91,
-    "skill_files": 1150,
+    "skill_files": 1151,
     "top_level_collections": 69
   }
 }
